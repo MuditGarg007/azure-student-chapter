@@ -1,0 +1,89 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(63, 9, 121) 35%,
+    rgb(1, 50, 122) 100%
+  );
+  color: white;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.footer {
+  background-color: black;
+}
+
+/* .glass {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+} */
+
+.card {
+  height: 20rem;
+  width: 25rem;
+  padding: 2rem;
+  background-color: rgb(63, 9, 121);
+  color: white;
+  border-radius: 30px;
+  filter: drop-shadow(0 0 0px rgb(63, 9, 121))
+    drop-shadow(0 0 5px rgb(243, 243, 243));
+  transition-duration: 0.3s;
+}
+
+.event:hover {
+  filter: drop-shadow(0 0 5px rgb(63, 9, 121))
+    drop-shadow(0 0 20px rgb(243, 243, 243));
+}
+
+.events {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.home-hero {
+  height: 100vh;
+  background-image: url("images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.heroGlass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.27);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.btn {
+  background-color: #39c4f1 !important;
+}
+
+.neon-image {
+  filter: drop-shadow(0 0 10px cyan) drop-shadow(0 0 20px cyan);
+}

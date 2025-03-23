@@ -1,0 +1,19 @@
+
+          <h3>Who Can Join?</h3>
+          <p>
+            Any student interested in technology, whether you're a beginner or
+            an advanced coder! No prior experience in Azure is required—just
+            curiosity and enthusiasm!
+          </p>
+
+          <h3>How to Join?</h3>
+          <ul>
+            <li>
+              Fill out the application form &#40;Basic details & interest in
+              Azure&#41;
+            </li>
+            <li>Hands-on workshops, hackathons & tech events</li>
+            <li>Networking with industry experts & Microsoft professionals</li>
+            <li>Collaborate on open-source projects & real-world solutions</li>
+            <li>Mentorship & career guidance in cloud computing</li>
+          </ul>
